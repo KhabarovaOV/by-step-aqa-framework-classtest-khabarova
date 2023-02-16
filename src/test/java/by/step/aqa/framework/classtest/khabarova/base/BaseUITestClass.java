@@ -15,7 +15,7 @@ public class BaseUITestClass {
 
     @BeforeAll
     public void prepareWebDriver(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Q1822\\by-step-aqa-framework-classtest-khabarova\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Github\\by-step-aqa-framework-classtest-khabarova\\src\\test\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
     }
