@@ -40,8 +40,6 @@ public class PikabuPageTest extends BaseUITestClass {
         //When
         pikabuService.getPikabuPage().getPikabuBlock().loginButton.click();
 
-        //Then
-      //  Assertions.assertEquals(expectedErrormessage, actualErrorMessageText);
     }
 
     @Test
